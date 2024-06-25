@@ -1,11 +1,11 @@
-import icon1 from "../../assets/icons/1.png"
-import icon2 from "../../assets/icons/2.png"
-import icon3 from "../../assets/icons/3.png"
+import icon1 from "../../assets/icons/1.png";
+import icon2 from "../../assets/icons/2.png";
+import icon3 from "../../assets/icons/3.png";
 
 const Category = () => {
-    return (
-        <div className="">
-      <div className="grid grid-cols-3 gap-5 mt-5 mx-5">
+  return (
+    <div className="">
+      <div className="grid lg:grid-cols-3 gap-5 mt-5 mx-5">
         <div className="bg-blue-300 px-10 py-10 rounded-md relative">
           <div className="flex items-center gap-5 ">
             <img src={icon1} alt="" className="w-20" />
@@ -61,8 +61,8 @@ const Category = () => {
           </div>
         </div>
       </div>
-    </div>
-    );
+    </div>
+  );
 };
 
 export default Category;
