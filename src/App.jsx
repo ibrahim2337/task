@@ -2,6 +2,7 @@ import About from "./components/About/About"
 import Category from "./components/Category/Category"
 import Contact from "./components/Contact/Contact"
 import Success from "./components/Success/Success"
+import Testimonials from "./components/Testimonials/Testimonials"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Category />
     <About />
     <Success />
+    <Testimonials />
     <Contact />
    </div>
   )
