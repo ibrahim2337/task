@@ -3,6 +3,7 @@ import Category from "./components/Category/Category"
 import Contact from "./components/Contact/Contact"
 import Success from "./components/Success/Success"
 import Testimonials from "./components/Testimonials/Testimonials"
+import ContactPage from "./page/ContactPage/ContactPage"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Success />
     <Testimonials />
     <Contact />
+    <ContactPage />
    </div>
   )
 }
